@@ -40,7 +40,7 @@ class CalendarsController < ApplicationController
       wday_num = day.wday # wdayメソッドを用いて取得した数値
     
       # 「wday_numが7以上の場合」の条件式
-      if
+      if wday_num >= 7
         wday_num = wday_num -7
       end
 
